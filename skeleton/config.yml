@@ -1,0 +1,71 @@
+config:
+    rootPath: 'alex-demo-astral'
+    langs: 
+        - en
+    defaultLang: 'en'
+    defaultPage: 'home'
+    meta:
+        description: 
+            en: 'A theme for a personal website'
+        keywords: 
+            - website generator
+            - personal website 
+    scripts:
+        #-
+        #    source: 'https://xxxx.com/script.js'
+
+theme:
+    person: 'Jane Doe'
+    personTitle: 'Chief Technical Officer @Luxon'
+    picture: '/alex-demo-astral/assets/user/imgs/me.jpg'
+    personDescription: 'You can put a nice description here'
+    blogDescription: "Hereafter you'll find the latest articles I've written mostly about tech and science stuffs!"
+    copyright: 'Jane Doe - 2020'
+    blogEntry: 2 
+
+menu:
+    -
+        content: home 
+        name:
+            en: 'Home'
+        icon: 'solid fa-home'
+        target: '' 
+    -
+        content: home 
+        name:
+            en: 'About'
+        icon: 'solid fa-address-card'
+        target: about 
+    -
+        content: home 
+        name:
+            en: 'Blog'
+        icon: 'solid fa-blog'
+        target: blog
+        submenus:
+            -
+                content: article2
+                picture: '/alex-demo-astral/assets/user/imgs/pic01.jpg'
+                name:
+                    en: 'My second article'
+            -
+                content: article
+                picture: '/alex-demo-astral/assets/user/imgs/pic02.jpg'
+                name:
+                    en: 'Showing the theme possibilities!'
+    -
+        content: github 
+        name:
+            en: 'Github'
+        icon: 'brands fa-github'
+        external: true
+        link: 'https://github.com/JaneDoe'
+        target: '_blank'
+    -
+        content: linkedin 
+        name:
+            en: 'LinkedIn'
+        icon: 'brands fa-linkedin'
+        external: true
+        link: 'https://www.linkedin.com/JaneDoe'
+        target: '_blank'
