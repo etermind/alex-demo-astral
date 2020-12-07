@@ -1,5 +1,5 @@
 config:
-    rootPath: 'alex-demo-astral'
+    rootPath: '/alex-demo-astral'
     langs: 
         - en
     defaultLang: 'en'
