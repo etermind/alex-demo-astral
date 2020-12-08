@@ -5,7 +5,7 @@
         {% elif entry.external %}
         <a href="{{entry.link}}" target="{{entry.target}}" class="icon {{entry.icon}}"><span>{{entry.name[lang]}}</span></a>
         {% else %}
-        <a href="/#{{entry.target}}" class="icon {{entry.icon}}"><span>{{entry.name[lang]}}</span></a>
+        <a href="{{root}}/#{{entry.target}}" class="icon {{entry.icon}}"><span>{{entry.name[lang]}}</span></a>
         {% endif %}
     {% endfor %}
 </nav>
